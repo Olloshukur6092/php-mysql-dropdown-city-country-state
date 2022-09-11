@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .navbar-nav li {
+    width: 80px;
+}
+
+/* .dropdown {
+    display: flex;
+    justify-content: center;
+    position: relative;
+} */
+
+/* .dropdown ul li {
+    width: 200px;
+    height: 50px;
+    background: #aaa;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    cursor: pointer;
+} */
+
+
+/* .submenu {
+    position: absolute;
+    top: 0;
+} */
+
+.submenu ul li {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.submenu_region_ukr {
+    position: absolute;
+    left: 340px;
+    width: 200px;
+}
+
+/* .submenu_region_ukr li {
+    background: rgb(55, 237, 5);
+    color: #fff;
+} */
+
+.submenu_region_ukr ul li,
+.submenu_region_rus ul li,
+.submenu_region_belarus ul li {
+    /* background: rgb(12, 230, 230); */
+    font-size: 16px;
+}
+
+.submenu_region_rus {
+    position: absolute;
+    left: 550px;
+    top: 60px;
+    width: 300px;
+}
+/* 
+.submenu_region_rus li {
+    background: rgb(6, 139, 255);
+    color: #fff;
+} */
